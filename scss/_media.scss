@@ -1,0 +1,334 @@
+
+@media (max-width: 1150px) {
+    .header__content-title {
+        font-size: 70px;
+        line-height: 80px;
+    }
+    .header__bottom-img {
+        object-fit: cover;
+    }
+
+    .destinations__items {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        &::after {
+            display: none;
+        }
+    }
+
+    .destinations__item {
+        margin: 0 10px 30px 10px;
+    }
+
+    .booking__minicard {
+        display: none;
+    }
+    .testimonials__slider {
+        .slick-dots {
+            bottom: 10%;
+            left: 40%;
+        }
+    }
+    .testimonials__inner {
+        display: block;
+    }
+    .testimonials__title {
+        margin-bottom: 30px;
+    }
+    .testimonials__item-container,
+    .testimonials__item-text,
+    .testimonials__content,
+    .testimonials__title,
+    .subscribe__text,
+    .testimonials__slider {
+        width: auto;
+    }
+
+    .subscribe__text {
+        padding: 0 16px;
+    }
+
+    .testimonials__slider {
+        margin: 0 auto;
+    }
+    .logos__list {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: start;
+        margin-bottom: 30px;
+        &-item {
+            margin: 15px;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .header__bottom-img {
+        display: none;
+    }
+    .header__content {
+        padding-top: 0 px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .header__content-title {
+        margin-bottom: 30px;
+    }
+    .header__content-text {
+        width: 100%;
+    }
+
+    .menu__auth-btn {
+        padding: 9px 15px;
+        margin-left: 10px;
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+
+    .menu__auth-select {
+        margin-left: 4px;
+    }
+
+    .menu__item {
+        margin: 0px 11px;
+    }
+    .title {
+        font-size: 46px;
+        line-height: 56px;
+    }
+    .subtitle {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .booking__inner {
+        flex-wrap: wrap;
+    }
+
+    .booking__card {
+        width: 100%;
+    }
+
+    .booking__card-container {
+        margin: 0 auto;
+    }
+
+    .booking__subtitle {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .booking__title {
+        text-align: center;
+    }
+
+    .booking__content {
+        margin: 0 auto;
+        width: auto;
+        padding: 0px 30px 60px 30px;
+    }
+
+    .booking__title {
+        text-align: center;
+        width: 495px;
+    }
+    .destinations {
+        padding-bottom: 130px;
+    }
+    .booking {
+        padding-bottom: 100px;
+    }
+    .slick-arrow {
+        display: none;
+    }
+    .footer__description {
+        display: none;
+    }
+    .subscribe {
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 860px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .header__content {
+        width: 100%;
+    }
+    .header__bottom {
+        padding-top: 0px;
+    }
+    .menu,
+    .menu__auth {
+        display: none;
+    }
+    .menu__btn {
+        border: none;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+        z-index: 6;
+        span {
+            width: 30px;
+            height: 2px;
+            background-color: #000;
+            margin-bottom: 6px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .category__items {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .category__item {
+        margin: 0 10px 30px 10px;
+    }
+    .subscribe__text {
+        margin: 0 auto 64px;
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .subscribe__inner {
+        padding: 40px 0px 0px 0px;
+    }
+    .footer__nav {
+        margin-bottom: 30px;
+    }
+    .footer__top {
+        padding-bottom: 30px;
+    }
+    .footer__outbound {
+        text-align: center;
+    }
+    .footer__social-item {
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 666px) {
+    .header__content {
+        padding-top: 60px;
+    }
+    .header__content-subtitle {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .header__content-title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .title {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .subtitle {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .category {
+        padding-top: 90px;
+        padding-bottom: 120px;
+    }
+    .destinations {
+        padding-bottom: 100px;
+    }
+    .testimonials__item-container {
+        height: auto;
+        padding: 30px 30px 30px 30px;
+        margin: 40px 30px 80px 40px;
+    }
+}
+
+@media (max-width: 580px) {
+    .booking__title {
+        width: 100%;
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .booking__content {
+        padding: 0px 0px 60px 0px;
+    }
+    .booking__item-text,
+    .booking__item {
+        width: auto;
+    }
+    .testimonials {
+        margin-bottom: 40px;
+    }
+    .subscribe__form {
+        flex-direction: column;
+    }
+
+    .subscribe__input {
+        margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 450px) {
+    .header__content-buttons {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .header__content-btn {
+        width: 100%;
+        margin-bottom: 16px;
+        margin-right: 0px;
+    }
+    .header__content-playbtn {
+        margin-left: 20%;
+    }
+    .header__content-subtitle {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .footer__nav-column {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 420px) {
+    .booking__card-container {
+        width: 300px;
+    }
+    .booking__card-img {
+        width: 100%;
+        object-fit: cover;
+        overflow: hidden;
+    }
+    .testimonials__item-container {
+        height: auto;
+        padding: 20px 10px 20px 30px;
+        margin: 40px 30px 80px 40px;
+    }
+    .testimonials__slider .slick-dots {
+        bottom: 10%;
+        left: 30%;
+    }
+    .footer__nav {
+        justify-content: center;
+    }
+    .footer__nav-column {
+        padding: 0 15px 30px 15px;
+    }
+}
+
+@media (max-width: 370px) {
+    .destinations__item {
+        width: 300px;
+        height: 447px;
+        overflow: hidden;
+    }
+    .subscribe__text {
+        font-size: 20px;
+        line-height: 26px;
+    }
+}

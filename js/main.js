@@ -4,17 +4,17 @@ $(function(){
         dots:true,
         slidesToShow: 1,
         slidesToScroll: 1, 
-        responsive: []  
+        responsive: [
+            {
+                breakpoint: 1141,
+                settings: {
+                    arrows: false,
+                }
+              },
+        ]  
     });
-
-    $('form').on('submit',function(e){
-        e.preventDefault();
-        var but = $(this).find('[type="submit"]').toggleClass('sending').blur();
-        
-        setTimeout(function(){
-           but.removeClass('sending').blur();
-        },4500);
-        
-      });
+    $('.menu__btn').on('click',function(){
+        $('.menu__list').toggleClass('menu__list--active')
+    });
 });
 
